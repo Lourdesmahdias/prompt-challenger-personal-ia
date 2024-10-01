@@ -121,3 +121,113 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+
+1. Introdução:
+Objetivo: Criar um prompt que gere um plano de treino personalizado, considerando as variáveis de biotipo, tempo disponível e preferências de exercício.
+Contexto: O prompt será utilizado para criar um assistente virtual que atua como um personal trainer, oferecendo planos de treino sob medida.
+2. Biotipos Corporais:
+Classificação: Ectomorfo (magro), mesomorfo (atlético) e endomorfo (tendência à gordura).
+Características: Cada biotipo possui características físicas e metabólicas distintas que influenciam a resposta ao treino.
+Prompt: Para cada biotipo, definir qual a melhor abordagem de treino (hipertrofia, força, resistência, etc.).
+3. Dias Disponíveis para Treino:
+Frequência: Variar a frequência dos treinos de acordo com a disponibilidade do usuário.
+Intensidade: Ajustar a intensidade dos treinos com base na frequência.
+Prompt: Criar uma lógica que permita ajustar o volume e a intensidade do treino de acordo com os dias disponíveis.
+4. Tipos de Exercícios:
+Preferências: Permitir que o usuário escolha os tipos de exercícios preferidos (cardio, musculação, funcional, etc.).
+Contraindicações: Considerar possíveis contraindicações ou limitações físicas do usuário.
+Prompt: Criar uma lista de exercícios para cada tipo e permitir que o usuário escolha os seus preferidos.
+5. Regras de negócio:
+Objetivos: Definir os objetivos do treino (perda de peso, ganho de massa muscular, definição, etc.).
+Restrições: Considerar restrições como lesões, gravidez, idade, etc.
+Progressão: Implementar um sistema de progressão para evitar o efeito platô e garantir resultados contínuos.
+6. Material de Apoio:
+Base de dados: Criar uma base de dados com exercícios, suas características e benefícios.
+Modelos de treino: Desenvolver modelos de treino pré-definidos para cada objetivo e biotipo.
+Algoritmos: Utilizar algoritmos de recomendação para personalizar os planos de treino.
+
+7. Prompt de Resposta Proposto:
+Vamos começar a criar seu plano de treino personalizado. Qual é o seu nome? 
+Você se identifica mais com qual biotipo?: 
+A) Ectomorfo: Corpo naturalmente magro, metabolismo acelerado, dificuldade em ganhar peso e massa muscular. 
+B) Mesomorfo: Corpo atlético, facilidade em ganhar massa muscular e perder gordura, boa resposta ao treinamento. 
+C) Endomorfo: Corpo com tendência a acumular gordura, metabolismo mais lento, maior dificuldade em perder peso.
+Onde você costuma treinar?
+A)	Em casa: 
+•	Funcional  
+•	HIIT
+•	Cardio
+B)	Academia:
+•	Maquinário
+•	Peso Livre
+•	Funcional
+•	HIIT
+C)	Ginásios 
+•	Peso Livre
+•	Funcional
+•	Cardio
+D)	Ao ar livre 
+•	HIIT
+•	Cardio
+•	Funcional
+
+Funcional: Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais e múltiplos grupos musculares
+Maquinário: Exercícios realizados em equipamentos, focados em isolar grupos musculares específicos.
+Peso Livre: Exercícios com pesos livres (halteres, barras, kettlebells) para trabalhar múltiplos grupos musculares simultaneamente
+HIIT: Treinos intervalados de alta intensidade, eficientes para queima de gordura e condicionamento.
+Cardio: Exercícios aeróbicos para melhorar a resistência cardiovascular (corrida, natação, ciclismo).
+
+Disponibilidade de Treino: 
+A) 1-2 dias por semana: Treino Full Body 
+B) 3-4 dias por semana: Treino ABC 
+C) 5-6 dias por semana: Treino ABCDE 
+Nível de Condicionamento:
+A) Iniciante: Pouca ou nenhuma experiência com exercícios regulares
+B) Intermediário: Pratica exercícios há alguns meses, familiarizado com técnicas básicas 
+C) Avançado: Treina consistentemente há anos, bom conhecimento de técnicas e princípios de treino
+Faixa Etária: 
+A) 16 a 29 anos 
+B) 30 a 39 anos 
+C) 40 a 49 anos 
+D) 50 anos ou mais
+Objetivo Principal: 
+A) Perda de gordura 
+B) Ganho de massa muscular 
+C) Melhora do condicionamento físico
+D) Aumento da força 
+E) Melhora da flexibilidade e mobilidade
+Restrições Médicas: 
+A) Nenhuma restrição conhecida 
+B) Problemas articulares 
+•	Joelho
+•	Ombro
+•	Costas 
+C) Condições cardiovasculares
+•	Hipertensão
+•	Insuficiência cardíaca
+•	Miocárdio
+D) Outras 
+
+Respostas como um usuário:
+1. Biotipo:
+•	Opção: B) Mesomorfo
+•	Justificativa: Sempre tive facilidade em ganhar massa muscular e definir o corpo. Meus músculos respondem bem ao treinamento e consigo ver resultados relativamente rápido.
+2. Onde você costuma treinar?
+•	Opção: B) Academia: Maquinário, Peso Livre, Funcional, HIIT
+•	Justificativa: Gosto da variedade de equipamentos e da possibilidade de realizar diferentes tipos de treino. A academia me oferece um ambiente motivador e com acompanhamento profissional, quando necessário.
+3. Disponibilidade de Treino:
+•	Opção: C) 5-6 dias por semana
+•	Justificativa: Tenho bastante tempo disponível e gosto de treinar com frequência. Acredito que quanto mais treinar, melhores serão os resultados.
+4. Nível de Condicionamento:
+•	Opção: B) Intermediário
+•	Justificativa: Treino regularmente há alguns anos e já conheço as técnicas básicas. Busco sempre evoluir e me desafiar com novos exercícios.
+5. Faixa Etária:
+•	Opção: B) 30 a 39 anos
+6. Objetivo Principal:
+•	Opção: B) Ganho de massa muscular
+•	Justificativa: Meu objetivo principal é aumentar a massa muscular e definir o corpo.
+7. Restrições Médicas:
+•	Opção: A) Nenhuma restrição conhecida
+•	Preferência por exercícios: Gosto muito de treinar com peso livre, pois acho que os resultados são mais eficazes e completos. No entanto, também gosto de incluir exercícios funcionais e HIIT nos meus treinos para melhorar a minha condicion física e queimar gordura.
+•	Divisão de treino: Prefiro a divisão ABCDE, pois permite trabalhar cada grupo muscular de forma mais específica e com maior frequência.
+•	Flexibilidade: Sou bastante flexível em relação aos horários de treino e consigo me adaptar a diferentes situações.
